@@ -8,7 +8,7 @@ name: Build Release
 jobs:
   release-images:
     runs-on: ubuntu-latest
-    if: github.repository	== 'kubesphere/ks-installer'
+    if: github.repository	== 'whenegghitsrock/ks-installer/carryon'
     steps:
       - uses: actions/checkout@v2
       - name: Get Version

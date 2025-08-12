@@ -9,7 +9,7 @@ jobs:
   Deploy-Weekly:
     runs-on: ubuntu-latest
     timeout-minutes: 150
-    if: github.repository == 'kubesphere/ks-installer'
+    if: github.repository == 'whenegghitsrock/ks-installer-carryon'
     strategy:
       max-parallel: 1
     env:
