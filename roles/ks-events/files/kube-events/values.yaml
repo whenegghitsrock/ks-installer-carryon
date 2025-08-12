@@ -1,7 +1,7 @@
 operator:
   enabled: true
   image:
-    repository: kubesphere/kube-events-operator
+    repository: kubesphereon/kube-events-operator
     tag: "" # If unset use v+ .Chart.appVersion
     pullPolicy: IfNotPresent
   configReloader:
@@ -30,7 +30,7 @@ operator:
 exporter:
   enabled: true
   image:
-    repository: kubesphere/kube-events-exporter
+    repository: kubesphereon/kube-events-exporter
     tag: "" # If unset use v+ .Chart.appVersion
     pullPolicy: IfNotPresent
   affinity: {}
@@ -62,7 +62,7 @@ ruler:
   enabled: true
   replicas: 2
   image:
-    repository: kubesphere/kube-events-ruler
+    repository: kubesphereon/kube-events-ruler
     tag: "" # If unset use v+ .Chart.appVersion
     pullPolicy: IfNotPresent
   affinity: {}
