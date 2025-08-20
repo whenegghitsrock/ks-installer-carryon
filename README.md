@@ -117,3 +117,19 @@ kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3
 ```
 
 > Note: If your KubeSphere version is v3.1.0 or eariler, please upgrade to v3.2.x first.
+
+## 💖 Support this Project  
+
+If you find this project useful, consider buying me a coffee ☕️.  
+
+### 💰 Crypto Donation  
+
+- **BTC**  
+  ![BTC QR Code](./donation/btc.png)  
+
+- **ETH**  
+  ![ETH QR Code](./donation/eth.png)  
+
+- **SOLANA**  
+  ![SOLANA QR Code](./donation/sol.png)  
+

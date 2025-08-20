@@ -116,5 +116,19 @@ kubectl logs -n kubesphere-system $(kubectl get pod -n kubesphere-system -l app=
 kubectl apply -f https://github.com/kubesphere/ks-installer/releases/download/v3.3.0/kubesphere-installer.yaml --force
 ```
 
-
 > 注意: 如果当前集群中部署的 KubeSphere 版本是 v3.1.0 或更早的版本，请先升级到 v3.2.x。
+
+## 💖 支持这个项目
+
+如果你觉得这个项目对你有帮助，欢迎请我喝杯咖啡 ☕️ 。  
+
+### 💰 打赏地址  
+
+- **BTC**  
+  ![BTC QR Code](./donation/btc.png)  
+
+- **ETH**  
+  ![ETH QR Code](./donation/eth.png)  
+
+- **SOLANA**  
+  ![SOLANA QR Code](./donation/sol.png)  
